@@ -12,3 +12,6 @@ echo $((num1*num2+num3))
 
 #UC4
 echo $((num1/num2+num3))
+
+#uc5
+echo $((num1%num2+num3))
