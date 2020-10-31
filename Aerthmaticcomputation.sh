@@ -25,3 +25,13 @@ result[((count++))]="$((num1/num2+num3))"
 result[((count))]="$((num1%num2+num3))"
 
 echo "dictionary -" ${result[@]}
+
+#UC7
+declare -a
+count=0
+result[((count++))]="$((num1+num2*num3))"
+result[((count++))]="$((num1*num2+num3))"
+result[((count++))]="$((num1/num2+num3))"
+result[((count))]="$((num1%num2+num3))"
+
+echo "array -" ${result[@]}
