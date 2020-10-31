@@ -29,9 +29,9 @@ echo "dictionary -" ${result[@]}
 #UC7
 declare -a
 count=0
-result[((count++))]="$((num1+num2*num3))"
-result[((count++))]="$((num1*num2+num3))"
-result[((count++))]="$((num1/num2+num3))"
-result[((count))]="$((num1%num2+num3))"
+arr[((count++))]="${result[counter]}"
+arr[((count++))]="${result[counter]}"
+arr[((count++))]="${result[counter]}"
+arr[((count))]="${result[counter]}"
 
 echo "array -" ${result[@]}
